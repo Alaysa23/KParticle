@@ -1,4 +1,4 @@
-# ParticleSelector (config-driven)
+# KParticle
 Простой плагин для Purpur/Paper 1.21.8 — открывает GUI выбора партиклов командой `/particles`.
 Новые партиклы можно добавлять через config.yml и перезагружать командой `/particles reload`.
 ## Сборка
