@@ -1,0 +1,50 @@
+# Добавляй новые секции под собственным ключом (key ниже — произвольный идентификатор)
+# Формат каждой секции:
+# icon: Material (иконка в меню)
+# name: Отображаемое имя
+# lore: список строк (опционально)
+# particle: имя enum Particle (например FLAME, CLOUD, HAPPY_VILLAGER и т.д.)
+# count: количество
+# offsetX/offsetY/offsetZ: смещения
+# extra: дополнительный параметр
+# verticalOffset: смещение по Y от позиции игрока (уровень показа)
+
+particles:
+  flame:
+    icon: BLAZE_POWDER
+    name: Flame
+    lore:
+      - "Выбрать: Flame (FLAME)"
+    particle: FLAME
+    count: 8
+    offsetX: 0.2
+    offsetY: 0.5
+    offsetZ: 0.2
+    extra: 0.01
+    verticalOffset: 1.0
+
+  cloud:
+    icon: FEATHER
+    name: Cloud
+    lore:
+      - "Выбрать: Cloud (CLOUD)"
+    particle: CLOUD
+    count: 6
+    offsetX: 0.2
+    offsetY: 0.3
+    offsetZ: 0.2
+    extra: 0.01
+    verticalOffset: 1.0
+
+  villager_happy:
+    icon: EMERALD
+    name: Villager Happy
+    lore:
+      - "Выбрать: Villager Happy (HAPPY_VILLAGER)"
+    particle: HAPPY_VILLAGER
+    count: 4
+    offsetX: 0.2
+    offsetY: 0.4
+    offsetZ: 0.2
+    extra: 0.01
+    verticalOffset: 1.0
